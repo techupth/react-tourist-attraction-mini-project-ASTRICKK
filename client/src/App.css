@@ -78,6 +78,14 @@
         width: 350px;
         height: 250px;
         overflow: hidden;
+        transition: .5s;
+      }
+
+      .blogPostImageTitleContainer:Hover {
+        width: 550px;
+        height: 400px;
+        cursor:pointer;
+        transition-delay: 0.3s;
       }
 
       .imgHero {

@@ -51,7 +51,14 @@ function HomePage() {
                   {blogPost.map((post, index) => (
                     <article key={index} className="blogPost">
                       <div className="blogPostImageTitleContainer">
-                        <img className="imgHero" src={post.photos[0]} alt="" />
+                        <img
+                          className="imgHero"
+                          src={post.photos[0]}
+                          alt=""
+                          onClick={() => {
+                            window.location.href = post.url;
+                          }}
+                        />
                       </div>
                       <div className="blogPostInfoContainer">
                         <div className="blogPostInfo">
