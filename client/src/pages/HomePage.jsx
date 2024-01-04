@@ -8,7 +8,6 @@ function HomePage() {
   const GetBlogPost = async () => {
     try {
       const result = await axios.get(`http://localhost:4001/trips?keywords=${inputMessage}`);
-      console.log(result);
       setBlogPost(result.data.data);
     } catch (error) {
       console.log("Error on getting GetBlogPost", error);
