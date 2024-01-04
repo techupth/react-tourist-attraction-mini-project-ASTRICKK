@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+  }
+
+@media (min-width: 1100px) {
+    .contentContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .headerContainer {
+        width: 1150px;
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        color: #2999DA;
+        font-size: 30px;
+    }
+    
+    .navigationBarContainer {
+        width: 1150px;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .navHeader {
+        align-self: flex-start;
+      }
+      
+      .navSearchingBar {
+        font-size: medium;
+        padding: 10px;
+        border-radius: 5px;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        text-align: center;
+        margin-top: 1rem;
+        width: 100%;
+        transition-duration: .5s;
+      }
+
+      .navSearchingBar:hover  {
+        font-size: large;
+        padding: 15px;
+        width: 100%;
+      }
+
+      .blogPost {
+        border-radius: 10px;
+      }
+
+      .blogPost:hover {
+        background-color: #e9f7ff;
+      }
+
+
+      .blogPostsContainer {
+        width: 1280px;
+      }
+      
+      .blogPost {
+        display: flex;
+        margin: 2rem;
+      }
+
+      .blogPostImageTitleContainer {
+        border-radius: 20px;
+        margin: 1rem;
+        width: 350px;
+        height: 250px;
+        overflow: hidden;
+      }
+
+      .imgHero {
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
+      }
+      
+      .blogPostInfoContainer {
+        width: 720px;
+      }
+
+      .blogPostInfo {
+        margin: 1rem;
+      }
+
+      .tripName {
+        font-weight: 400;
+        font-size: larger;
+      }
+      
+      .tripInfo {
+        font-weight: 200;
+      }
+
+      .tripReadMore {
+        color: #2999DA;
+      }
+
+      .tripCategory {
+        display: flex;
+        font-weight: 200;
+      }
+
+      .tripCategoryList {
+        padding-left: 10px;
+        text-decoration: underline;
+        list-style-type: none;
+      }
+      .tripCategoryListHeader {
+        padding-right: 10px;
+        text-decoration: none;
+        list-style-type: none;
+      }
+
+      .tripPhotosAndIconLink {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .tripPhotosContainer{
+        width: fit-content;
+      }
+
+      .tripPhoto {
+        border-radius: 15px;
+        width: 100px;
+        height: 100px;
+        margin: 15px;
+      }
+
+      .iconLink {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+      }
+      
+      .copyicon {
+        margin: 15px;
+        width: 50px;
+        height: 50px;
+        transition-duration: .5s;
+      }
+
+      .copyicon:hover {
+        cursor:pointer;
+        width: 60px;
+        height: 60px;
+      }
+      
+
+}
